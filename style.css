@@ -1,0 +1,86 @@
+
+.borda{
+    width: 300px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(246, 169, 141);
+
+}
+.hora{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 15px;
+    
+}
+.wifi{
+    width: 15px;
+    padding-left: 10px;
+    display; flex;
+}
+.bateria{
+    width: 15px;
+    padding-left: 8px;
+}
+.rede{
+    width: 15px;
+    padding-left: 173px;
+}
+#time{
+    width: 15px;
+    padding-left: 100px;
+    margin-right: 10px;
+}
+.visor{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(245, 177, 153);
+}
+.calculos{
+    width: 300px;
+    justify-content: center;
+    padding-bottom: 30px;
+    /* background-color:green; */
+    height: 30px;
+}
+.botoes{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    
+}
+button {
+    padding: 10px;
+    width: 85px;
+    height: 70px;
+    background-color: rgb(246, 169, 141);
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    border:none;
+    margin-top: 2px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgb(248, 156, 123);
+}
+button:active {
+    background-color: rgb(252, 157, 122);
+}
+.del{
+    width: 35px;
+}
+footer{
+    text-align: center;
+    font-size: 13px;
+    color:crimson;  
+}
+.booked-clsim2{
+    margin-left: 10PX;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color:crimson;  
+}
